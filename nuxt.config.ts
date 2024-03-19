@@ -9,5 +9,5 @@ export default defineNuxtConfig({
   generate: {
     dir: 'docs'
   },
-  publicPath: '/_nuxt/',
+  publicPath: '/my-blog/_nuxt/',
 })
