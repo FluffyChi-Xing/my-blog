@@ -8,5 +8,6 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@element-plus/nuxt"],
   generate: {
     dir: 'docs'
-  }
+  },
+  publicPath: '/_nuxt/',
 })
